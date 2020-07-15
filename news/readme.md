@@ -1,0 +1,1 @@
+This file is here only to be sure that the `news` folder is not ignored by git.
