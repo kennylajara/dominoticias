@@ -1,9 +1,0 @@
-MainLinks = //article//h2/parent::a[not(starts-with(@href, "/fotos/"))]/@href
-Title = //div[@id="notap1a-00"]//h1/span/text()
-Summary = //div[@id="notap1a-00"]//ul/li/text()
-Body = //*[@id="notap1a-01"]//div[@class="text"]/div[@class="paragraph"]/p//text()
-Author = //div[@id="notap1a-00"]//span[@class="author-date"]/a[1]/strong/text()
-Place = //div[@id="notap1a-00"]//span[@class="author-date"]/a[2]/span/text()
-Time = //div[@id="notap1a-00"]//span[@class="author-date"]/time/text()
-RelatedNews = //div[@id="notap1a-01"]//div[contains(@class, "Nota_incrustada")]//blockquote/a[not(starts-with(@href, "/fotos/"))]/@href
-MoreNewsLinks = //div[@id="notap1-ml"]//h2/parent::a[not(starts-with(@href, "/fotos/"))]/@href
